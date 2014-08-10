@@ -2,5 +2,5 @@
 ======
 
 #目次
-*[サーバ](./server.md)
-*[冗長化（Redundancy）](./redundancy.md)
+* [サーバ](./server.md)  
+* [冗長化（Redundancy）](./redundancy.md)  
