@@ -78,7 +78,7 @@ L4スイッチはIPアドレスの書き換えは行わなわず、クライア�
 __VRRP__によってルータやロードバランサにフェイルオーバを導入することができる。  
 ###VRRP（Virtual Router Redundancy Protocol）  
 Cisco社のHSRPというプロトコルをベースに作られたベンダ非依存の冗長化プロトコル  
-[keepalived](./redundancy#keepalived)ではVRRPが使えるので、keepalivedに設定を追加するだけで冗長化を行える。  
+[keepalived](./redundancy.md#keepalived)ではVRRPが使えるので、keepalivedに設定を追加するだけで冗長化を行える。  
 
 #####VRRPパケット  
 VRRPのマスタノードは定期的に__VRRPパケット__をマルチキャストアドレス（224.0.0.18）に創出し続ける。VRRPパケットはマスタノードが健全であることを広告するメッセージという意味で__アドバタイズメント（Advertisement）__とも呼ばれる。  
